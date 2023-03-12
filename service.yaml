@@ -1,0 +1,13 @@
+﻿apiVersion: v1
+kind: Service
+metadata:
+  name: lesson2-service
+spec:
+  selector:
+    app: http-server-lesson2
+  ports:
+    - protocol: TCP
+      port: 8000
+      targetPort: http
+  type: ClusterIP
+

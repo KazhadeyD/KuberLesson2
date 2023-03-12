@@ -1,0 +1,10 @@
+﻿auth:
+    rootPassword: "123123"
+    password: "123123"
+startupProbe:
+    enabled: true
+    initialDelaySeconds: 30
+    periodSeconds: 10
+    timeoutSeconds: 1
+    failureThreshold: 15
+    successThreshold: 1
