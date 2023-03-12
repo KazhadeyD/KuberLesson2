@@ -3,4 +3,4 @@ helm install mysql-test mysql-repo/mysql -f values.yaml && \
 kubectl apply -f ingress-helm.yaml && \
 kubectl apply -f lesson2-config.yaml && \
 kubectl apply -f service.yaml && \
-kubectl apply -f /deployment.yaml
+kubectl apply -f deployment.yaml
